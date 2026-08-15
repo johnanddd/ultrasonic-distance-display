@@ -22,7 +22,7 @@ The Arduino code for the project will be added to this repository.
 ## Images
 
 ### Completed Circuit
-![Completed ultrasonic distance display](IMG_7858.jpeg)
+![Completed ultrasonic distance display](IMG_7869.jpeg)
 
 ### Distance Measurement Test
 ![Ultrasonic sensor distance measurement](IMG_7860.jpeg)
