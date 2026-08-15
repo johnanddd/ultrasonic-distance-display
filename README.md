@@ -20,7 +20,12 @@ The calculated distance is then continuously displayed on the LCD.
 The Arduino code for the project will be added to this repository.
 
 ## Images
-Pictures of the completed circuit will be added here.
+
+### Completed Circuit
+![Completed ultrasonic distance display](IMG_7858.jpeg)
+
+### Distance Measurement Test
+![Ultrasonic sensor distance measurement](IMG_7860.jpeg)
 
 ## What I Learned
 - How the HC-SR04 measures distance using the time it takes for sound to bounce off an object and come back
