@@ -17,7 +17,7 @@ The Arduino uses `micros()` to measure how long the echo pin stays HIGH. Since t
 The calculated distance is then continuously displayed on the LCD.
 
 ## Code
-The Arduino code for the project will be added to this repository.
+Code located in 'ultrasonic_distance_display.ino'
 
 ## Images
 
