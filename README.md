@@ -13,8 +13,8 @@ I built this project to learn how ultrasonic sensors actually measure distance a
 
 ## How It Works
 The Arduino sends a 10 microsecond pulse to the trigger pin of the HC-SR04. The sensor then sends out an ultrasonic pulse and sets the echo pin HIGH while it waits for the reflected sound wave to return.
-The Arduino uses `micros()` to measure how long the echo pin stays HIGH. Since the measured time includes the sound traveling to the object and back, the travel distance is divided by two to calculate the distance to the object.
-The calculated distance is then continuously displayed on the LCD.
+The Arduino uses micros() to measure how long the echo pin stays HIGH for a certain amount of time. Since the measured time includes the sound traveling to the object and back, the travel distance is divided by two to calculate the distance to the object.
+The calculated distance is then averaged with the last 5 and continuously displayed on the LCD.
 
 ## Code
 Code located in 'ultrasonic_distance_display.ino'
